@@ -1,0 +1,76 @@
+/*
+Theme Name:   ChildThemeSalient
+Description:  Write here a brief description about your child-theme
+Author:       Waqas T
+Author URL:   Write here the author's blog or website url
+Template:     salient
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  ChildThemeSalient
+*/
+
+/* Write here your own personal stylesheet */
+
+.custom_full_img_span img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+.container {
+  padding: 2px 16px;
+}
+.woocommerce div.product form.cart .variations, .woocommerce .variations, .nectar-quick-view-box .variations, .woocommerce .nectar-quick-view-box div.product form.cart .variations{
+    margin-left: auto;
+  margin-right: auto;
+}
+tr.hiddenRow
+{
+    display:none;
+}
+.woocommerce-page button[type=submit].single_add_to_cart_button, body[data-form-submit=regular].woocommerce-page .container-wrap button[type=submit].single_add_to_cart_button{
+    font-size: 16px;
+    padding: 20px 45px!important;
+    transition: all .2s ease;
+    text-align: center;
+    margin: auto;
+    display: block;
+    float: none;
+    margin-top: 4rem;
+}
+
+.my-card--selected{
+    box-shadow: 0 0 0 3px rgb(0 0 0 / 90%);
+}
+p.price{
+  display:none;
+}
+form.variations_form.cart.wvs-loaded{
+	margin-top:40px;
+}
+
+/* CSS for Mobile */ 
+ 
+@media only screen and (max-width:720px){
+  .card{
+    width: 90%;
+    margin-top: 32px !important;
+  }  
+}
+
+@media only screen and (min-width:720px){
+  .custom_full_img_span img{
+      width:50%;
+  }
+}
+
+
+
+
+/* Lanugage Switcher */
