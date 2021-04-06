@@ -24,27 +24,3 @@ jQuery( document ).ready(function($) {
         $("select#dimensione").val($card_id).change();
 });
 });
-
-
-/*jQuery( document ).ready(function($) {
-  
-  var div_id = $( "div.product-info" );
-	$( div_id ).each(function( index ) {
-		new_var = $(this).text();
-      if (~new_var.indexOf("Bouqet")){
-        $("#special_request_field").css("display", "block");
-        $("#gift_card_field").css("display", "block");
-        $("#budget_option_field").css("display", "block");
-      }
-      else{
-        $("#special_request_field").css("display", "none");
-        $("#gift_card_field").css("display", "none");
-        $("#budget_option_field").css("display", "none");
-      }
-
-	});
- 
-});
-*/
-
-
