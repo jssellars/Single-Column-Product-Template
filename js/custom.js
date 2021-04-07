@@ -7,10 +7,8 @@ jQuery( document ).ready(function($) {
          $(this).addClass('my-card--selected');
          $card_id = $(this).attr("id");
         $("select#tipo").val($card_id).change();
-});
-	console.log("working");
+});	
 $( "<h2 class=`text-wisdom` style=margin-bottom:30px;>Subtotal</h2>" ).insertAfter( "table.variations" );
-
 });
 
 /* This is for wreaths template */
